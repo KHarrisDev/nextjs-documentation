@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-card__img {
+  @apply w-full h-60 rounded object-cover;
+}
