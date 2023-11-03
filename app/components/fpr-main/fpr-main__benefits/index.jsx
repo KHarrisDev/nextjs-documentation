@@ -5,12 +5,12 @@ import RoofingBenefitsImg3 from "../../../../public/main/main-roofing-benefits/r
 
 export default function RoofingBenefits() {
   return (
-    <section className="w-full">
-      <div className="w-full sm:flex sm:flex-col">
+    <section className="mt-20 mb-10">
+      <div className="flex flex-col">
         <div className="rf-benefits-card py-4 lg:flex">
           <div className="relative md:flex-1">
             <Image
-              src={RoofingBenefitsImg1}
+              src={RoofingBenefitsImg3}
               className=""
               alt="A picture of a roof."
             />
@@ -22,7 +22,7 @@ export default function RoofingBenefits() {
           </div>
           <div className="rf-benefits-card-text py-4 px-9 md:flex-1">
             <h3 className="rf-benefits-title font-medium text-3xl lg:text-5xl lg:pt-24 lg:pl-24 py-4">
-              ROOF REPLACEMENT
+              ROOF REPLACMENT
             </h3>
             <p className="rf-benefits-desccription font-light text-2xl lg:text-2xl lg:pl-24 lg:pr-36">
               As specialists in residential and commercial roofing services, we

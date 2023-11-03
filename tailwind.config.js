@@ -9,9 +9,21 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    // fontSize: {
-    //   mammoth: "8rem",
-    // },
+    screens: {
+      sm: "640px",
+      sm2: "684px",
+      sm3: "726px",
+      md: "768px",
+      md2: "832px",
+      md3: "896px",
+      md4: "960px",
+      lg: "1024px",
+      lg2: "1088px",
+      lg3: "1152px",
+      lg4: "1216px",
+      xl: "1280px",
+      xl2: "1300px",
+    },
     fontFamily: {
       body: ['"Open Sans"', "Teko"],
     },

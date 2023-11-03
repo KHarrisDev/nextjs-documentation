@@ -18,46 +18,10 @@ export default function Header() {
         <Navigation />
       </div>
 
-      <div className="relative flex flex-col sm:flex-row lg:gap-20 lg:mb-44 lg:mt-10 justify-center items-center">
+      <div className="relative flex flex-col md:flex-row md:gap-20 lg:gap-20 lg:mb-44 lg:mt-10 justify-center items-center">
         <HeroHeading />
         <HeroForm />
       </div>
     </div>
   );
-  // return (
-  //   <section className="relative w-full">
-  //     <HeaderImg />
-  //     <HeaderContent />
-  //   </section>
-  // );
-}
-{
-  /* <section className="relative">
-  <Image
-    src={HeroImage}
-    alt="Fieldpoint Roofing"
-    priority={false}
-    className="w-full h-full bg-cover bg-center z-0"
-  />
-  <div className="hero-landing-container flex justify-center item-center gap-6 z-20">
-    <h1 className="hero-landing-text uppercase text-9xl">
-      <span className="font-semibold">no hassle</span>
-      <br />
-      <span className="font-normal">roof repairs</span>
-    </h1>
-    <HeroForm />
-  </div>
-</section>; */
-}
-{
-  /* <section className="hero-landing-section w-screen mt-12">
-      <div className="hero-landing-container flex justify-center item-center gap-6">
-        <h1 className="hero-landing-text uppercase text-9xl">
-          <span className="font-semibold">no hassle</span>
-          <br />
-          <span className="font-normal">roof repairs</span>
-        </h1>
-        <HeroForm />
-      </div>
-    </section> */
 }

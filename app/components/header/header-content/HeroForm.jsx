@@ -19,7 +19,7 @@ export default function HeroForm() {
   return (
     <>
       <div className="flex items-center justify-center flex-col w-72 px-4 mt-7 mb-16 bg-neutral rounded shadow-md">
-        <h2 className="text-gray text-xl font-semibold my-6 pt-2">
+        <h2 className="text-gray text-2xl font-semibold my-6 pt-2">
           Get a Free Estimate
         </h2>
 

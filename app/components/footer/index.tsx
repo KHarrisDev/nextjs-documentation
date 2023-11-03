@@ -27,9 +27,9 @@ export default function Footer() {
               <h1 className="text-neutral text-4xl mb-6">Lets Get in Touch</h1>
             </div>
 
-            <div className="lg:flex lg:flex-row lg:gap-3 mb-4">
-              <div className="lg:flex lg:flex-col">
-                <div className="lg:flex lg:flex-col w-[350px] mb-2">
+            <div className="md:flex md:flex-row md:gap-3 mb-4">
+              <div className="md:flex md:flex-col">
+                <div className="md:flex md:flex-col w-[300px] lg:w-[350px] mb-2">
                   <label className="text-neutral-n02">Name</label>
                   <input
                     type="text"
@@ -41,7 +41,7 @@ export default function Footer() {
                   />
                 </div>
 
-                <div className="lg:flex lg:flex-col">
+                <div className="md:flex md:flex-col">
                   <label className="text-neutral-n02">Email</label>
                   <input
                     type="email"
@@ -54,7 +54,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div className="lg:flex lg:flex-col w-[350px]">
+              <div className="md:flex md:flex-col w-[300px] lg:w-[350px]">
                 <label className="text-neutral-n02">Message</label>
                 <input
                   type="text"
@@ -68,14 +68,14 @@ export default function Footer() {
             </div>
             <button
               type="submit"
-              className="bg-primary lg:ml-[33rem] text-neutral py-1 px-20 mb-12 rounded-full"
+              className="bg-primary md:ml-[27rem] lg:ml-[33rem] text-neutral py-1 px-20 mb-12 rounded-full"
             >
               Send
             </button>
-            <div className="contact-information flex flex-col text-neutral text-2xl mt-10">
+            <div className="contact-information flex flex-col md:pl-14 text-neutral text-2xl mt-10">
               <h1 className="text-4xl mb-6">Fieldpoint Roofing</h1>
-              <div className="lg:flex lg:flex-row">
-                <div className="lg:flex lg:flex-row lg:gap-20 mr-10">
+              <div className="md:flex md:flex-row">
+                <div className="md:flex md:flex-row md:gap-20 mr-10">
                   <div className="mb-6 text-sm">
                     <p>
                       318 E. White Horse Pike
@@ -93,7 +93,7 @@ export default function Footer() {
                     <p> Saturday and Sunday - Closed </p>
                   </div>
                 </div>
-                <div className="w-[350px]"></div>
+                <div className="w-[300px] lg:w-[350px]"></div>
               </div>
               <div className="mb-6">
                 <p>(609) 247-7861</p>
@@ -102,14 +102,14 @@ export default function Footer() {
           </div>
         </footer>
       ) : (
-        <footer className="bg-neutral-n07 pt-20 mx-10">
+        <footer className="bg-neutral-n07 pt-20">
           <div className="flex flex-col">
             <div className="flex items-center justify-center">
               <h1 className="text-neutral text-6xl mb-6">Lets Get in Touch</h1>
             </div>
 
-            <div className="lg:flex lg:flex-col">
-              <div className="mb-3">
+            <div className="flex flex-col px-14">
+              <div className="mb-3 px-4">
                 <label className="text-neutral-n02">Name</label>
                 <input
                   type="text"
@@ -121,7 +121,7 @@ export default function Footer() {
                 />
               </div>
 
-              <div className="mb-3">
+              <div className="mb-3 px-4">
                 <label className="text-neutral-n02">Email</label>
                 <input
                   type="email"
@@ -133,7 +133,7 @@ export default function Footer() {
                 />
               </div>
 
-              <div className="mb-3">
+              <div className="mb-3 px-4">
                 <label className="text-neutral-n02">Message</label>
                 <input
                   type="text"
@@ -144,15 +144,17 @@ export default function Footer() {
                   required
                 />
               </div>
-              <button
-                type="submit"
-                className="bg-primary w-full text-neutral py-1 px-20 mb-12 rounded-full"
-              >
-                Send
-              </button>
+              <div className="px-3">
+                <button
+                  type="submit"
+                  className="bg-primary w-full text-neutral py-1 px-20 mb-12 rounded-full"
+                >
+                  Send
+                </button>
+              </div>
             </div>
 
-            <div className="contact-information flex flex-col text-neutral text-2xl mt-10">
+            <div className="contact-information flex flex-col pl-16 text-neutral text-xl mt-10">
               <h1 className="text-4xl mb-6">Fieldpoint Roofing</h1>
               <div className="mb-6">
                 <p>

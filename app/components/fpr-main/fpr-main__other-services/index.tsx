@@ -7,8 +7,8 @@ import OtherRoofingServices4 from "../../../../public/main/main-other-roofing-se
 export default function RoofingServices() {
   return (
     <section className="bg-neutral-n07 flex flex-col items-center">
-      <div className="rf-other-services-header w-full">
-        <h3 className="text-neutral-n02 mb-4 ml-9 lg:pl-12 lg:mt-16 w-full">
+      <div className="rf-other-services-header w-11/12">
+        <h3 className="text-neutral-n02 mb-4 lg:mt-16">
           Other Roofing Services
         </h3>
       </div>

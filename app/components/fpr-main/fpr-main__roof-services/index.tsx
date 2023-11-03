@@ -7,10 +7,8 @@ import RoofingServicesImg4 from "../../../../public/main/main-roofing-services/r
 export default function RoofingServices() {
   return (
     <section className="bg-neutral-n07 flex flex-col items-center mb-4">
-      <div className="rf-services-header w-full">
-        <h3 className="text-neutral-n02 mb-4 ml-9 lg:pl-12 lg:mt-16 w-full">
-          Roofing Services
-        </h3>
+      <div className="rf-services-header w-11/12">
+        <h3 className="text-neutral-n02 mb-4  lg:mt-16">Roofing Services</h3>
       </div>
 
       <div className="lg:grid lg:grid-cols-4 lg:gap-4">

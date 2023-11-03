@@ -10,12 +10,14 @@ export default function Financing() {
       <div className="lg:flex lg:flex-row lg:h-[650px]">
         <div className="lg:flex lg:flex-row lg:flex-1">
           <div className="lg:w-1/6 bg-primary"></div>
-          <div className="lg:flex lg:flex-col justify-center financing lg:w-4/6 bg-primary text-neutral">
+          <div className="pb-20 lg:flex lg:flex-col justify-center financing lg:w-4/6 bg-primary text-neutral pt-24 px-10 sm:px-20 md:px-40 md3:px-44 lg:px-10">
             <p className="text-3xl">Financing Through Synchrony Bank</p> <br />
             Your roof is essential for protecting your home from the elements,
             preserving its structural integrity, preventing costly water damage
             and saving energy. Ignoring roof issues can lead to more extensive
             and expensive repairs down the road, making timely repairs crucial.
+            <br />
+            <br />
             Financing allows you to address roofing problems promptly,
             minimizing the risk of further damage and escalating costs.
             Financing your roof repairs allows you to safeguard your home,
